@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Sensory Blueprint for ADHD Women | ADHD &amp; Her</title>
+<meta name="description" content="An OT-created sensory questionnaire and video course for women with ADHD. Understand your nervous system and build a regulation toolkit matched to you.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#1f2e3a;--navy-mid:#2e4b62;--off-white:#faf9f7;--linen:#efe9e2;--sage:#9fb7af;--sage-pale:#eaf2f0;--blush:#d8bfb6;--blush-pale:#f8f0ed;--blue-dust:#8fa9b5;--blue-pale:#e8f2f6;--gold:#E4C590;--ink:#2c3f4e;--muted:#7a8e98}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--off-white);color:var(--ink);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
+a{color:var(--navy-mid)}
+img{max-width:100%;height:auto;display:block}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+.narrow{max-width:760px;margin:0 auto}
+.serif,h1,h2,h3{font-family:'DM Serif Display',Georgia,serif;font-weight:400;line-height:1.15}
+em{font-style:italic;color:var(--blush)}
+h2{font-size:clamp(1.6rem,3.4vw,2.2rem);color:var(--navy);margin-bottom:14px}
+h2 em{color:var(--navy-mid)}
+h3{font-size:1.15rem;color:var(--navy);margin-bottom:6px}
+.label{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--blue-dust);margin-bottom:10px}
+.btn{display:inline-block;border-radius:99px;padding:15px 32px;font-weight:600;text-decoration:none;font-size:16px;transition:transform .12s}
+.btn:hover{transform:translateY(-1px)}
+.btn-gold{background:var(--gold);color:var(--navy)}
+.btn-navy{background:var(--navy-mid);color:#fff}
+.btn-line{border:1.5px solid var(--sage);color:var(--navy);background:#fff}
+.small{font-size:13px;color:var(--muted)}
+nav.top{background:var(--off-white);border-bottom:1px solid rgba(31,46,58,.08)}
+nav.top .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+nav.top .brand{font-family:'DM Serif Display',Georgia,serif;font-size:1.15rem;color:var(--navy);text-decoration:none}
+nav.top .links a{font-size:14px;color:var(--ink);text-decoration:none;margin-left:22px}
+nav.top .links a.cta{background:var(--navy-mid);color:#fff;padding:9px 16px;border-radius:99px}
+@media(max-width:640px){nav.top .links a:not(.cta){display:none}}
+header.hero{background:var(--navy-mid);color:var(--off-white);padding:56px 0 60px}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center}
+@media(max-width:820px){.hero .wrap{grid-template-columns:1fr}}
+.hero .label{color:var(--blue-dust)}
+.hero h1{font-size:clamp(2rem,4.6vw,3rem);color:#fff;margin-bottom:18px}
+.hero p.sub{font-size:18px;color:rgba(250,249,247,.88);margin-bottom:12px;max-width:560px}
+.hero p.sub2{font-size:15.5px;color:var(--blue-dust);margin-bottom:26px;max-width:560px}
+.hero .trust{font-size:13px;color:var(--blue-dust);margin-top:14px}
+.hero .img{background:rgba(255,255,255,.06);border-radius:16px;padding:18px}
+.cred{background:#fff;border-bottom:1px solid rgba(31,46,58,.08)}
+.cred .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px 24px;padding:18px 22px}
+.cred .wrap>div{font-size:14px;color:var(--navy);display:flex;gap:8px;align-items:flex-start}
+.cred .wrap>div::before{content:"✓";color:var(--sage);font-weight:700}
+section{padding:56px 0}
+section.alt{background:#fff}
+section.navy{background:var(--navy-mid);color:var(--off-white)}
+section.navy h2{color:#fff}section.navy h2 em{color:var(--gold)}
+.pain-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin:22px 0}
+.pain-grid div{background:#fff;border-left:3px solid var(--blush);border-radius:0 10px 10px 0;padding:18px 20px;font-size:15.5px}
+.pain-grid b{display:block;font-family:'DM Serif Display',Georgia,serif;font-weight:400;font-size:1.15rem;color:var(--navy);margin-bottom:6px}
+section.navy .pain-grid div{background:rgba(255,255,255,.06);color:rgba(250,249,247,.9)}
+section.navy .pain-grid b{color:var(--gold)}
+.close{font-size:17px;max-width:720px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-top:24px}
+.card{background:#fff;border-radius:14px;padding:22px 24px;box-shadow:0 4px 20px rgba(31,46,58,.06)}
+.card p{font-size:15px}
+.stat{display:flex;gap:22px;align-items:center;background:var(--sage-pale);border-radius:14px;padding:22px 26px;margin-top:22px}
+.stat b{font-family:'DM Serif Display',Georgia,serif;font-weight:400;font-size:3rem;color:var(--navy-mid);line-height:1}
+.center{text-align:center}
+.cta-row{margin-top:28px;text-align:center}
+.cta-row .small{display:block;margin-top:10px}
+.shelley{display:grid;grid-template-columns:260px 1fr;gap:36px;align-items:center}
+@media(max-width:700px){.shelley{grid-template-columns:1fr}}
+.shelley img{border-radius:16px;aspect-ratio:4/5;object-fit:cover;width:100%}
+.shelley .role{font-size:13px;color:var(--blue-dust);letter-spacing:.04em;margin-bottom:14px}
+.shelley p{font-size:16.5px;margin-bottom:12px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px;margin-top:24px}
+.steps div{background:#fff;border-radius:12px;padding:20px 22px}
+.steps .n{font-family:'DM Serif Display',Georgia,serif;font-size:2rem;color:var(--blue-dust);line-height:1;margin-bottom:8px}
+.steps b{display:block;color:var(--navy);margin-bottom:4px;font-weight:500}
+.steps p{font-size:14.5px}
+.pricebox{background:#fff;border-radius:18px;padding:36px 38px;box-shadow:0 10px 40px rgba(31,46,58,.1);max-width:640px;margin:26px auto 0}
+.pricebox ul{list-style:none;margin:14px 0 22px}
+.pricebox li{padding:7px 0 7px 26px;position:relative;font-size:15.5px;border-bottom:1px solid rgba(31,46,58,.06)}
+.pricebox li::before{content:"✓";position:absolute;left:0;color:var(--sage);font-weight:700}
+.price{font-family:'DM Serif Display',Georgia,serif;font-size:3rem;color:var(--navy);line-height:1;margin:6px 0 4px}
+.guarantee{background:var(--blush-pale);border-radius:10px;padding:14px 18px;font-size:14.5px;margin:20px 0}
+details{background:#fff;border-radius:10px;padding:0;margin-bottom:10px;box-shadow:0 2px 8px rgba(31,46,58,.05)}
+summary{cursor:pointer;padding:16px 20px;font-weight:500;color:var(--navy);list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--blue-dust);font-size:20px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{padding:0 20px 18px;font-size:15px}
+footer{background:var(--linen);padding:34px 0;font-size:12.5px;color:var(--muted);line-height:1.8}
+footer p{margin-bottom:8px}
+.sticky{position:fixed;left:0;right:0;bottom:0;background:var(--navy-mid);color:#fff;display:none;align-items:center;justify-content:space-between;padding:12px 18px;z-index:20;box-shadow:0 -4px 20px rgba(0,0,0,.2)}
+.sticky span{font-size:13px}
+.sticky .btn{padding:11px 20px;font-size:14px}
+@media(max-width:640px){.sticky{display:flex}body{padding-bottom:64px}}
+.disc{font-size:12.5px;color:var(--muted);max-width:760px;margin:0 auto}
+/* home */
+.prod{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:26px}
+.prod a.pcard{background:#fff;border-radius:16px;overflow:hidden;text-decoration:none;color:var(--ink);box-shadow:0 4px 20px rgba(31,46,58,.06);display:flex;flex-direction:column}
+.pcard .pimg{background:var(--blue-pale);aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;padding:18px}
+.pcard .pimg img{max-height:100%;object-fit:contain}
+.pcard .pbody{padding:18px 20px 20px;display:flex;flex-direction:column;gap:6px;flex:1}
+.pcard .who{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pcard h3{font-size:1.2rem}
+.pcard p{font-size:14.5px;flex:1}
+.pcard .pp{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
+.pcard .pp b{font-family:'DM Serif Display',Georgia,serif;font-weight:400;font-size:1.4rem;color:var(--navy)}
+.pcard .pp span{font-size:13.5px;color:var(--navy-mid);font-weight:500}
+</style>
+</head>
+<body>
+<nav class="top"><div class="wrap"><a class="brand" href="/">ADHD &amp; Her</a><div class="links"><a href="/#courses">Courses</a><a href="/#about">About</a><a href="https://tools.adhdandher.com.au/regulation-checkin/">Free check-in</a><a class="cta" href="/#courses">Shop</a></div></div></nav>
+
+<header class="hero"><div class="wrap">
+  <div>
+    <p class="label">My Sensory Blueprint · For women with ADHD</p>
+    <h1>Finally understand why you're wired <em>the way you are.</em></h1>
+    <p class="sub">For women with ADHD who are done guessing and ready to understand how they actually work. You&#x27;ve spent the year looking after everyone else. This one is for you.</p>
+    
+    <a class="btn btn-gold" href="https://buy.stripe.com/aFa4gsdVR9bTe29dTH2cg02" >Get Instant Access &middot; $47 AUD</a>
+    <p class="trust">One-time payment · 30 to 45 minutes · 30-day money-back guarantee</p>
+  </div>
+  <div class="img"><img src="/images/product-blueprint.png" alt="My Sensory Blueprint: Women&#x27;s Edition" onerror="this.parentElement.style.display='none'"></div>
+</div></header>
+<div class="cred"><div class="wrap"><div>Created by an AHPRA-registered OT</div><div>8 sensory domains, mapped to you</div><div>Personalised results PDF</div><div>No diagnosis needed</div></div></div>
+<section class="navy"><div class="wrap">
+  <h2>We spent years thinking it was just us.</h2>
+  <div class="pain-grid"><div>Twenty minutes trying to find something to wear because everything feels wrong.</div><div>Completely wrung out by 2pm without doing anything that should be tiring.</div><div>Irritability that comes out of nowhere, and is hard to shift no matter what you try.</div><div>The week before your period when the world gets louder, harsher and less manageable.</div></div>
+  <p class="close">That is your nervous system, and it has been trying to tell you something. <strong>Understanding your sensory patterns is how you start to hear it.</strong></p>
+</div></section>
+<section><div class="wrap">
+  <p class="label">What you walk away with</p><h2>Not generic ADHD advice. <em>Matched to you.</em></h2><p class="narrow" style="margin:0">Everything inside is built around your specific sensory patterns. Complete it once, keep the results for life.</p>
+  <div class="grid"><div class="card"><h3>A clear picture of your nervous system</h3><p>Eight sensory domains explored in your own browser. Finally have words for why certain environments, textures and sounds affect you the way they do.</p></div><div class="card"><h3>Your personalised results PDF</h3><p>A printable PDF with your full results and pattern narrative. Yours to keep and refer back to.</p></div><div class="card"><h3>A regulation toolkit that actually fits</h3><p>Strategies matched to your specific patterns. Things you can actually reach for when you&#x27;re too activated, too flat, or somewhere in between.</p></div><div class="card"><h3>ADHD, hormones and your cycle</h3><p>Why the week before your period feels so much harder, and how oestrogen interacts with your sensory window. An explanation that makes sense.</p></div><div class="card"><h3>OT-led video lessons</h3><p>Shelley walks you through the framework before you begin, and unpacks regulation in real life so you know exactly what to do with your results.</p></div></div>
+  <div class="cta-row"><a class="btn btn-gold" href="https://buy.stripe.com/aFa4gsdVR9bTe29dTH2cg02" >Get Instant Access &middot; $47 AUD</a><span class="small">One-time payment · Instant access · Lifetime access</span></div>
+</div></section>
+
+<section class="navy"><div class="wrap shelley">
+  <img src="/images/shelley-2468.jpg" alt="Shelley L&#x27;Green" loading="lazy" onerror="this.style.display='none'">
+  <div><p class="label" style="color:var(--blue-dust)">A note from Shelley</p><h2 style="margin-bottom:4px">Shelley L'Green</h2><p class="role">Occupational Therapist · AHPRA Registered · Diagnosed with ADHD at nine</p><p>I spent most of my life without the right language for what was happening in my own brain and body. Certain environments undid me. I felt things more intensely than most people seemed to. I didn&#x27;t have a framework for any of it. I just white-knuckled through.</p><p>This is what I wish I&#x27;d had earlier. Not a diagnosis. Not a fix. A starting point, with practical tools that make the day-to-day more manageable and a lot less guessing.</p></div>
+</div></section>
+<section><div class="wrap">
+  <p class="label">How it works</p><h2>Thirty minutes for yourself. <em>A framework for life.</em></h2>
+  <div class="steps"><div><div class="n">1</div><b>Pay and get instant access</b><p>Your course page opens straight after payment, on any device. The link is in your receipt too.</p></div><div><div class="n">2</div><b>Watch the Welcome</b><p>Shelley walks you through the framework before you begin.</p></div><div><div class="n">3</div><b>Complete the questionnaire</b><p>20 minutes, somewhere quiet, on a laptop if you can. Your results PDF at the end.</p></div><div><div class="n">4</div><b>Build your toolkit</b><p>Two short lessons on regulation in real life, then the strategies matched to you.</p></div></div>
+</div></section>
+<section class="alt"><div class="wrap">
+  <p class="label center">Everything included</p><h2 class="center">Everything you need. <em>One price.</em></h2>
+  <div class="pricebox">
+    <ul><li>4 OT-led video lessons</li><li>Sensory preferences questionnaire across 8 domains</li><li>Personalised PDF results with pattern narrative</li><li>Regulation toolkit matched to your specific patterns</li><li>Sensory Blueprint worksheet</li><li>Instant and lifetime access · Nothing stored or shared</li></ul>
+    <div class="center"><div class="price">$47 AUD</div><p class="small">One-time payment · Instant access · Lifetime access</p></div>
+    <div class="guarantee"><strong>30-day money-back guarantee.</strong> If it isn&#x27;t right for you, email me within 30 days for a full refund. No catches, no forms.</div>
+    <div class="center"><a class="btn btn-gold" href="https://buy.stripe.com/aFa4gsdVR9bTe29dTH2cg02" >Get Instant Access &middot; $47 AUD</a></div>
+  </div>
+</div></section>
+<section><div class="wrap narrow">
+  <h2>Questions</h2><details><summary>I&#x27;ve read everything about ADHD. How is this different?</summary><p>Reading explains ADHD in general. This maps YOUR nervous system specifically: your patterns across 8 sensory domains, your results PDF, tools matched to you. It&#x27;s the difference between reading about maps and holding one of your own street. And if it isn&#x27;t different for you, the guarantee means you don&#x27;t pay for it.</p></details><details><summary>Do I need an ADHD diagnosis?</summary><p>No. This is for women with ADHD, women exploring whether they might have ADHD, and women who are simply curious about how their nervous system works.</p></details><details><summary>Is this a clinical assessment?</summary><p>No. This is an educational and self-exploration resource. It does not diagnose any condition and does not replace professional OT, medical advice, or therapeutic support.</p></details><details><summary>How do I access it?</summary><p>Your course page opens the moment your payment goes through, and the link is in your receipt email. No login, no password. The questionnaire runs in your browser and you receive a printable PDF with your personalised results.</p></details><details><summary>How long does it take?</summary><p>Around 30 to 45 minutes for the full course and questionnaire. Pause and come back any time.</p></details><details><summary>Is my data private?</summary><p>Yes. The questionnaire runs on your device. Your responses are not collected, stored, or transmitted to ADHD and Her.</p></details>
+</div></section>
+<section class="navy"><div class="wrap center">
+  <h2>You don't have to keep <em>guessing.</em></h2>
+  <p class="close" style="margin:0 auto 24px">You&#x27;re not too much, you&#x27;re not broken, and you&#x27;re not imagining it. Your nervous system has been asking for the right tools, not more willpower. Start with 30 minutes for yourself. Leave with a framework and tools that are actually matched to you. 30-day money-back guarantee.</p>
+  <a class="btn btn-gold" href="https://buy.stripe.com/aFa4gsdVR9bTe29dTH2cg02" >Get Instant Access &middot; $47 AUD</a>
+  <p class="trust small" style="color:var(--blue-dust);margin-top:12px">One-time payment · Instant access · Lifetime access</p>
+</div></section>
+<section style="padding:28px 0"><div class="wrap"><p class="disc">For educational and self-exploration purposes only. Not a clinical assessment. Does not replace professional occupational therapy, medical advice, or therapeutic support. Created by Shelley L&#x27;Green, Occupational Therapist (AHPRA registered). No claims are made that this resource will diagnose, treat, or cure any condition.</p></div></section>
+<div class="sticky"><span><strong>OT-created</strong> · Lifetime access</span><a class="btn btn-gold" href="https://buy.stripe.com/aFa4gsdVR9bTe29dTH2cg02">Get access · $47</a></div>
+<footer><div class="wrap">
+<p>ADHD &amp; Her acknowledges the Traditional Custodians of the lands on which we live and work, and pays respect to Elders past and present.</p>
+<p>&copy; 2026 Shelley L'Green, AHPRA-registered Occupational Therapist. All resources are educational and do not replace professional OT, medical or therapeutic advice.</p>
+<p><a href="/links/">Links</a> &middot; <a href="https://www.instagram.com/adhd.and.her/">Instagram</a> &middot; <a href="mailto:support@adhdandher.com.au">support@adhdandher.com.au</a> &middot; <a href="/terms/">Terms &amp; refunds</a> &middot; <a href="/privacy/">Privacy</a></p>
+</div></footer>
+</body></html>
